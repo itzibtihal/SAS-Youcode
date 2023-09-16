@@ -3,16 +3,15 @@
 
 int main()
 {
-  char c;
+  char charac;
   printf("entrer un caractere :  ");
-  scanf("%c", &c);
-  if('a'<=c && c<='z'){
+  scanf("%c", &charac);
+  if('a'<=charac && charac<='z'){
     printf("le caractere est un alphabet miniscule");
-  }else if('A'<=c && c<='Z'){
+  }else if('A'<=charac && charac<='Z'){
     printf(" le caractere est un alphabet MAJUSCULE");
   }else{
    printf(" le caractere n'est pas un alphabet");
   }
-
     return 0;
 }

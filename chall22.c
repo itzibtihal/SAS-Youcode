@@ -17,6 +17,5 @@ int main() {
         printf("%d est un nombre premier.", numb);
     else
         printf("%d n'est pas un nombre premier.", numb);
-
     return 0;
 }

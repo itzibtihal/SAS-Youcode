@@ -19,6 +19,5 @@ int main() {
 
     printf("La somme des entiers est : %d\n", sum);
     printf("Le maximum des entiers est : %d\n", max);
-
     return 0;
 }

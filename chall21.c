@@ -7,17 +7,17 @@ int main() {
     scanf("%d", &n);
 
     for (i = 1; i <= n; i++) {
-        // Affiche des espaces pour l'alignement
+        // Affiche des espaces 
         for (j = 1; j <= n - i; j++) {
             printf(" ");
         }
 
-        // Affiche des étoiles pour la pyramide
+        // Affiche des étoiles 
         for (j = 1; j <= 2 * i - 1; j++) {
             printf("*");
         }
 
-        // Passe à la ligne suivante
+        //  ligne suivante
         printf("\n");
     }
 
