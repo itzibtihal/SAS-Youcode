@@ -21,7 +21,7 @@ int main() {
         return 1;
     }
 
-    // Remplir le tableau avec des valeurs entrées au clavier
+    // Remplir le tableau 
     for (i = 0; i < L; i++) {
         for (j = 0; j < C; j++) {
             printf("Entrez la valeur pour T[%d][%d] : ", i, j);
